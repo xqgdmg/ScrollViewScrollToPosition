@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_gravity="center"
+        android:background="#55ff0000"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="218dp">
+
+        <TextView
+            android:id="@+id/tvProjectIntroduction"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:textColor="#ffffff"
+            android:textSize="14sp"
+            android:text="项目介绍" />
+
+        <TextView
+            android:id="@+id/tvShareAllocation"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:textColor="#ffffff"
+            android:textSize="14sp"
+            android:text="份额分配" />
+
+        <TextView
+            android:id="@+id/tvProjectAdvantage"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:textColor="#ffffff"
+            android:textSize="14sp"
+            android:text="项目优势" />
+
+        <TextView
+            android:id="@+id/tvMoneyUse"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:textColor="#ffffff"
+            android:textSize="14sp"
+            android:text="资金用途" />
+
+        <TextView
+            android:id="@+id/tvEnterpriseEvaluation"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:textColor="#ffffff"
+            android:textSize="14sp"
+            android:text="企业评估" />
+
+    </LinearLayout>
+
+
+</LinearLayout>

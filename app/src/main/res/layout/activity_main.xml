@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clipToPadding="true"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical">
+
+    <dmg.xqg.com.scrollviewscrolltoposition.view.NoAutoScrollViewWithPosition
+        android:id="@+id/noAutoScrollViewWithPosition"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:overScrollMode="never"
+        android:scrollbars="none">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <!-- 项目介绍 -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp"
+                android:orientation="vertical">
+                <TextView
+                    android:text="项目介绍"
+                    android:id="@+id/projectIntroduction"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="0.5dp"
+                    android:gravity="center_vertical"
+                    android:paddingTop="17dp"
+                    android:paddingBottom="17dp"
+                    android:textColor="#c5c6d1"
+                    android:textSize="15sp" />
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="0.5dp"/>
+                <TextView
+                    android:id="@+id/tvProjectIntroduction"
+                    android:lineSpacingExtra="10dp"
+                    android:paddingTop="17dp"
+                    android:paddingBottom="17dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#939eae"
+                    android:textSize="14sp"
+                    android:text="法发动机啦法发动机啦法发动机啦法发动机啦法发动机啦法发动机啦法发动机啦法发动机啦法发动机啦法发动机啦法发动机啦法发动机啦法发动机啦法发动机啦法发动机啦法发动机啦法发动机啦法发动机啦法发动机啦法发动机啦法发动机啦法发动机啦法发动机啦法发动机啦法发动机啦法发动机啦法发动机啦法发动机啦法发动机啦法发动机啦法发动机啦法发动机啦法发动机啦法发动机啦法发动机啦法发动机啦法发动机啦法发动机啦法发动机啦法发动机啦法发动机啦法发动机啦法发动机啦法发动机啦法发动机啦法发动机啦法发动机啦法发动机啦法发动机啦法发动机啦法发动机啦法发动机啦法发动机啦法发动机啦法发动机啦法发动机啦法发动机啦" />
+            </LinearLayout>
+
+            <!-- 份额分配 -->
+            <LinearLayout
+                android:layout_marginTop="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp"
+                android:paddingBottom="17dp"
+                android:orientation="vertical">
+                <TextView
+                    android:id="@+id/shareAllocation"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="0.5dp"
+                    android:gravity="center_vertical"
+                    android:paddingTop="17dp"
+                    android:paddingBottom="17dp"
+                    android:text="shareAllocation"
+                    android:textColor="#c5c6d1"
+                    android:textSize="15sp" />
+                <TextView
+                    android:lineSpacingExtra="10dp"
+                    android:paddingTop="17dp"
+                    android:paddingBottom="17dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#939eae"
+                    android:textSize="14sp"
+                    android:text="份额分配份额分配份额分配份额分配份额分配份额分配份额分配份额分配份额分配份额分配份额分配份额分配份额分配份额分配份额分配份额分配份额分配份额分配份额分配份额分配份额分配份额分配份额分配份额分配份额分配份额分配份额分配份额分配份额分配份额分配份额分配份额分配份额分配份额分配份额分配份额分配份额分配份额分配份额分配份额分配份额分配份额分配份额分配份额分配份额分配份额分配份额分配份额分配份额分配份额分配份额分配份额分配份额分配份额分配份额分配份额分配份额分配份额分配份额分配" />
+            </LinearLayout>
+
+            <!-- 项目优势 -->
+            <LinearLayout
+                android:layout_marginTop="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:minHeight="200dp"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp"
+                android:orientation="vertical">
+                <TextView
+                    android:id="@+id/projectAdvantage"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="0.5dp"
+                    android:gravity="center_vertical"
+                    android:paddingTop="17dp"
+                    android:paddingBottom="17dp"
+                    android:text="projectAdvantage"
+                    android:textColor="#c5c6d1"
+                    android:textSize="15sp" />
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="0.5dp"/>
+                <TextView
+                    android:id="@+id/tvProjectAdvantage"
+                    android:lineSpacingExtra="10dp"
+                    android:paddingTop="17dp"
+                    android:paddingBottom="17dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#939eae"
+                    android:textSize="14sp"
+                    android:text="花费大量开始花费大量开始花费大量开始花费大量开始花费大量开始花费大量开始花费大量开始花费大量开始花费大量开始花费大量开始花费大量开始花费大量开始花费大量开始花费大量开始花费大量开始花费大量开始花费大量开始花费大量开始花费大量开始花费大量开始花费大量开始花费大量开始花费大量开始花费大量开始花费大量开始花费大量开始花费大量开始花费大量开始花费大量开始" />
+            </LinearLayout>
+
+            <!-- 资金用途 -->
+            <LinearLayout
+                android:layout_marginTop="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:minHeight="200dp"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp"
+                android:orientation="vertical">
+                <TextView
+                    android:id="@+id/moneyUse"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="0.5dp"
+                    android:gravity="center_vertical"
+                    android:paddingTop="17dp"
+                    android:paddingBottom="17dp"
+                    android:text="moneyUse"
+                    android:textColor="#c5c6d1"
+                    android:textSize="15sp" />
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="0.5dp"/>
+                <TextView
+                    android:id="@+id/tvMoneyUse"
+                    android:lineSpacingExtra="10dp"
+                    android:paddingTop="17dp"
+                    android:paddingBottom="17dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#939eae"
+                    android:textSize="14sp"
+                    android:text="发的所发生的发发的所发生的发发的所发生的发发的所发生的发发的所发生的发发的所发生的发发的所发生的发发的所发生的发发的所发生的发发的所发生的发发的所发生的发发的所发生的发发的所发生的发发的所发生的发发的所发生的发发的所发生的发发的所发生的发发的所发生的发发的所发生的发" />
+            </LinearLayout>
+
+            <!-- 企业评估 -->
+            <LinearLayout
+                android:layout_marginTop="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:minHeight="175dp"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp"
+                android:orientation="vertical">
+                <TextView
+                    android:id="@+id/enterpriseEvaluation"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="0.5dp"
+                    android:gravity="center_vertical"
+                    android:paddingTop="17dp"
+                    android:paddingBottom="20dp"
+                    android:text="enterpriseEvaluation"
+                    android:textColor="#c5c6d1"
+                    android:textSize="15sp" />
+                <!-- 企业计划书 -->
+                <LinearLayout
+                    android:id="@+id/llProspectus"
+                    android:background="#52627c"
+                    android:paddingLeft="15dp"
+                    android:paddingRight="15dp"
+                    android:minHeight="35dp"
+                    android:gravity="center_vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="wrap_content"
+                        android:textColor="#c5c6d1"
+                        android:textSize="12sp"
+                        android:text="prospectus" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="#939eae"
+                        android:textSize="12sp"
+                        android:text="see" />
+                </LinearLayout>
+                <!-- 企业财务报表 -->
+                <LinearLayout
+                    android:id="@+id/llFinancialStatement"
+                    android:layout_marginTop="0.5dp"
+                    android:background="#52627c"
+                    android:paddingLeft="15dp"
+                    android:paddingRight="15dp"
+                    android:minHeight="35dp"
+                    android:gravity="center_vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="wrap_content"
+                        android:textColor="#c5c6d1"
+                        android:textSize="12sp"
+                        android:text="financialStatement" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="#939eae"
+                        android:textSize="12sp"
+                        android:text="see" />
+                </LinearLayout>
+                <!-- 企业资产评估报告 -->
+                <LinearLayout
+                    android:id="@+id/llAssetAppraisalReport"
+                    android:layout_marginTop="0.5dp"
+                    android:background="#52627c"
+                    android:paddingLeft="15dp"
+                    android:paddingRight="15dp"
+                    android:minHeight="35dp"
+                    android:gravity="center_vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="wrap_content"
+                        android:textColor="#c5c6d1"
+                        android:textSize="12sp"
+                        android:text="assetAppraisalReport" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="#939eae"
+                        android:textSize="12sp"
+                        android:text="see" />
+                </LinearLayout>
+            </LinearLayout>
+
+
+        </LinearLayout>
+    </dmg.xqg.com.scrollviewscrolltoposition.view.NoAutoScrollViewWithPosition>
+
+    <!-- 悬浮按钮 -->
+    <Button
+        android:id="@+id/btnMenu"
+        android:layout_marginTop="15dp"
+        android:background="@mipmap/ic_launcher"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_gravity="bottom|end"
+        android:layout_marginRight="15dp"
+        android:layout_marginBottom="15dp"
+        android:gravity="center"/>
+
+</LinearLayout>
